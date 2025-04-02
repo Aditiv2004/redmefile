@@ -55,11 +55,24 @@ for (let key in student){
 
 // for of
 
-const name={"red", "blue", "green"};
-  for(let names in name){
+const names=["Aditi", "sonam", "shakshi"];
+  for(let name in names){
     console.log(names)
   }
 
 
+ 
+  let day=1;
+  while (day<=5){
+      day++;
+    console.log(`day ${day}:today i am stating my fast☺️😒`)
+  }
   
+  let khana=["pizza","🍕", "🍔", "🍟" ,"🌭" ,"🍿","🥞samosa"]
+  for (let item of khana){
+      console.log(khana)
+      console.log( `khana : ${item}😱😲🤤`)
+      
+  }
+
 
